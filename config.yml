@@ -1,0 +1,106 @@
+CMS_ENV_EXTRA:
+  DEFAULT_SITE_THEME: astutetheme
+CMS_HOST: studio.institute.airoboticx.com
+CMS_OAUTH2_SECRET: tlVnL8a687vnVobSBRv37bET
+CMS_THEME: astutetheme
+COMPREHENSIVE_THEME_DIRS: /mnt/tutor/themes
+CONTACT_EMAIL: contact@institute.airoboticx.com
+CORS_ORIGIN_WHITELIST:
+- https://studio.institute.airoboticx.com
+- https://institute.airoboticx.com
+CSRF_TRUSTED_ORIGINS:
+- https://studio.institute.airoboticx.com
+- https://institute.airoboticx.com
+DEFAULT_SITE_THEME: astutetheme
+ENABLE_COMPREHENSIVE_THEMING: true
+ENABLE_HTTPS: true
+ENABLE_LEARNER_DASHBOARD_MFE: false
+ENABLE_MFES: true
+ENABLE_MFE_ACCOUNT_SETTINGS: false
+ENABLE_MFE_DISCUSSIONS: false
+ENABLE_MFE_GRADEBOOK: false
+ENABLE_MFE_LEARNER_HOME: true
+ENABLE_MFE_PROFILE: false
+ID: gxBZjp4Gl4jnhgGnTvcBHbr1
+JWT_RSA_PRIVATE_KEY: '-----BEGIN RSA PRIVATE KEY-----
+
+  MIIEowIBAAKCAQEAjnSUDKcBrdIkqgBoJ0WQk8vm7BNPWm5JeHBKEzJ3kwkm/tCS
+
+  g/e42JXxeFpmx2DSzHuk01pD3CCB2km4Kvz6CfXY/cygBb8rDHXza3FZDgL2+Vey
+
+  4DsfimQVlksaVf+Px60AInGiQ4joNB116DkcUIuSeG7Aq72ITfvKOEP1ugNSQW94
+
+  GIZyi0//jYpt617eKmqKJd67yiGfhSjTyp3+lAG9iK647nGe+9z39u7hoGiGmJRY
+
+  kVeo2iicuYQq3MouvskAKZhQ00abKRkBc+aokaVPxmbExy12AM9NZP2hknC0Op7j
+
+  5W9C+cdV1FQb6RZGt/e4CG6ji1pLWILgtqu7lQIDAQABAoIBABRbsQa9MpO6iuvS
+
+  orqDX13dJMi1xRWO2lLAdWLt8kG3QUqRgxwh9wQuKt6WHhxoiBJEqfGxyNiOEBCi
+
+  kBPF/ckWSHw+KzD3DiS55zTXyNrO7f2vR0xylpd/+x0fPt8YZoiqKXFCsmZFYViF
+
+  TKLdz9/rj7NEsfs5MGAOAkBtPJI9uFo816fwtfIyav0WIH0gy1klDWsgq6I8LNht
+
+  trEQcgYTyVUFoSeHv5P8RCeVWhQDHBybdgbpXYY4KAawxOX/bRdZKKSZc/je680Y
+
+  DqoyP7IVpNAIebM6A3RFhwVxId8ws1VNV5zV4Q1CCh/NPtKZR1wgR3xO4aDJ4KNX
+
+  Ch1ATHcCgYEAvZz1LOoOIq98+Psv1ZJeCV9/9dyPYxMJv2iWJyK5NKwG9bbHaGU5
+
+  u6vGhB5M75lNX7LHMmLyBOAMWxTavE2+zNk8GwxjHHTVbWbgUf7re44JQAhy4zoO
+
+  Ny4+35fBAA/gQ/1iJxzL4/8cSSU7WCSdB2pcpz4eyZzO4hXwPOJr9e8CgYEAwFTe
+
+  UY5fcREVJQaJLs1KPFZ3Ejcq0UM6STXReo4kU8sck4JRovzEsWVLJuuluN0aaRox
+
+  ZAR09nCErCESIUesM1clSuRcYWaj9sudQ+N5ZTF+PAWV6oirg/MyObkrgKRT/XBa
+
+  4koW3xBzTBVkFmxhP+u2QTRWVL/w5JiWDabISrsCgYAXbeeVry4j9w84LMGSYE2i
+
+  VtyW4rQNB/MyZZf4KgA8k+0gO3+UVL23hNg4xw22pXi8FHksrrE9DPo53u/QSMME
+
+  yOr2ZKdygrVEmWuqdhde4wQdl22qyierhdlbA4NjoJKTlCGmt5YyC/nQx/r3Pz7w
+
+  BaKBP9nKC8g8g3116HxynQKBgQCJHLe1SptN3tDFKYio3d9bboTKbpvOvW+S+5QQ
+
+  G79YIUeI/XG3kR2kHcNaxsnJJY8LeInXdLnxajua/qSPJypjG3BRmMUnBuZDLds6
+
+  p7NGaedFYPIEVlR35+tZbWHO/teFqRCRnCH7+h1IE0PcHH2j9SVkDKyzFHbmcMUg
+
+  jFLjuwKBgB0oj9INdErXtiE9xWapYXHNVkOngUuNWRIPG0qkNkqGeoKHZA0VB7aj
+
+  bIkuAZzRXiXx3d3oqvsybzFsuXmUKOaxgNr8ea4ezdqhkyRJFhgkGBUXc0nEQy7v
+
+  9I78gGwNS68klLvMxkbslj/83inJZo6/uRXApoxpl+kcdqfp7DxW
+
+  -----END RSA PRIVATE KEY-----'
+LANGUAGE_CODE: en
+LEARNER_HOME_MICROFRONTEND_URL: https://institute.airoboticx.com/learner
+LETS_ENCRYPT_EMAIL: luciferxop01@.com
+LMS_ENV_EXTRA:
+  DEFAULT_SITE_THEME: astutetheme
+  LEARNER_HOME_MICROFRONTEND_URL: ''
+LMS_HOST: institute.airoboticx.com
+LMS_LEARNER_HOME_MICROFRONTEND_URL: ''
+LMS_SETTINGS_OVERRIDES:
+  LEARNER_HOME_MICROFRONTEND_URL: ''
+LMS_THEME: astutetheme
+MEILISEARCH_API_KEY: caaa4f7c50d0d873a8baee28d86172695306d9dc381d68f606df1de53aaf5556
+MEILISEARCH_API_KEY_UID: df34b256-a5dc-4ac6-b60f-f2a84d6dd79e
+MEILISEARCH_MASTER_KEY: lFhOmIWsql6yMnUiJSxrqoCd
+MYSQL_ROOT_PASSWORD: o7XZ0wtx
+OPENEDX_MYSQL_PASSWORD: GK0SYlu0
+OPENEDX_SECRET_KEY: B9EI15v07uIFAVP5to6VX7Vx
+PATCHES_OPENEDX:
+- /openedx/patches/fix_studio_home_url.patch
+PLATFORM_NAME: Astute Institue of AI & Robotics
+PLUGINS:
+- indigo
+- mfe-plugin
+PLUGIN_INDEXES:
+- https://overhang.io/tutor/main
+- https://overhang.io/tutor/contrib
+ROOT_HOST: institute.airoboticx.com
+THEME_DIRS: /mnt/tutor/themes
+THEME_NAME: astutetheme

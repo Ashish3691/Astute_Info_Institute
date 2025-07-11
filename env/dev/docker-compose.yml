@@ -1,0 +1,49 @@
+x-openedx-service:
+  &openedx-service
+  image: openedx-dev:20.0.0
+  stdin_open: true
+  tty: true
+  volumes:
+    # theme files
+    - ../build/openedx/themes:/openedx/themes
+
+services:
+  permissions:
+    environment:
+      OPENEDX_USER_ID: "1001"
+
+  lms:
+    <<: *openedx-service
+    command: ./manage.py lms runserver 0.0.0.0:8000
+    environment:
+        DJANGO_SETTINGS_MODULE: lms.envs.tutor.development
+    ports:
+        - "8000:8000"
+    networks:
+      default:
+        aliases:
+          - "institute.airoboticx.com"
+
+  cms:
+    <<: *openedx-service
+    command: ./manage.py cms runserver 0.0.0.0:8000
+    environment:
+        DJANGO_SETTINGS_MODULE: cms.envs.tutor.development
+    ports:
+        - "8001:8000"
+
+  meilisearch:
+    ports:
+      - "127.0.0.1:7700:7700"
+    networks:
+      default:
+        aliases:
+          - "meilisearch.institute.airoboticx.com"
+
+  # Additional service for watching theme changes
+  watchthemes:
+    <<: *openedx-service
+    command: npm run watch-sass
+    restart: unless-stopped
+
+  
